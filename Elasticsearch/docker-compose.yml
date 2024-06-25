@@ -1,0 +1,49 @@
+version: '3.10'
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.14.2
+    container_name: E01
+    environment:
+    - node.name=E01
+    - cluster.name=E01-cluster
+    - discovery.type=single-node
+    volumes:
+    - dataE01:/usr/share/elasticsearch/data
+    ports:
+    - 9200:9200
+    - 9300:9300
+    networks:
+    - elastic_net
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.11.2
+    container_name: K01
+    environment:
+    - SERVER_NAME=K01
+    volumes:
+    - dataK01:/usr/share/kibana/config
+    ports:
+    - 5601:5601
+    networks:
+    - elastic_net
+    depends_on:
+    - elasticsearch
+volumes:
+  dataE01:
+    driver: local
+    driver_opts:
+      type: 'none'
+      o: 'bind'
+      device: '$PWD/elasticsearch_data'
+  dataK01:
+    driver: local
+    driver_opts:
+      type: 'none'
+      o: 'bind'
+      device: '$PWD/kibana_data'
+networks:
+  elastic_net:
+    name: elastic_net
+    ipam:
+      config:
+        - subnet: 172.124.12.0/24
+          gateway: 172.124.12.1

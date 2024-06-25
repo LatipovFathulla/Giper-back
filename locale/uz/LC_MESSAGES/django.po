@@ -1,0 +1,394 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-20 23:09+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: apps/cart/apps.py:7 apps/checkout/models.py:16
+msgid "cart"
+msgstr ""
+
+#: apps/cart/models.py:10 apps/checkout/models.py:17 apps/outside/models.py:73
+#: apps/products/models.py:58 apps/products/models.py:354
+#: apps/user_profile/models.py:75
+msgid "user"
+msgstr ""
+
+#: apps/cart/models.py:11 apps/outside/models.py:53 apps/outside/models.py:72
+#: apps/products/models.py:194 apps/products/models.py:355
+#: apps/products/models.py:363
+msgid "product"
+msgstr ""
+
+#: apps/cart/models.py:12
+msgid "quantity"
+msgstr ""
+
+#: apps/cart/models.py:13
+msgid "total"
+msgstr ""
+
+#: apps/cart/models.py:14 apps/checkout/models.py:22 apps/outside/models.py:12
+#: apps/outside/models.py:32 apps/outside/models.py:54
+#: apps/outside/models.py:74 apps/products/models.py:93
+#: apps/products/models.py:235 apps/products/models.py:273
+#: apps/user_profile/models.py:47 apps/user_profile/models.py:80
+msgid "created_at"
+msgstr ""
+
+#: apps/cart/models.py:15 apps/outside/models.py:13 apps/outside/models.py:33
+#: apps/outside/models.py:55 apps/outside/models.py:75
+#: apps/products/models.py:97 apps/products/models.py:239
+msgid "updated_at"
+msgstr ""
+
+#: apps/cart/models.py:21
+msgid "Cart"
+msgstr ""
+
+#: apps/cart/models.py:22
+msgid "Carts"
+msgstr ""
+
+#: apps/checkout/apps.py:7
+msgid "checkout"
+msgstr ""
+
+#: apps/checkout/models.py:10
+msgid "full_name"
+msgstr ""
+
+#: apps/checkout/models.py:11 apps/user_profile/models.py:46
+#: apps/user_profile/models.py:77
+msgid "phone_number"
+msgstr ""
+
+#: apps/checkout/models.py:12
+msgid "region"
+msgstr ""
+
+#: apps/checkout/models.py:13 apps/user_profile/models.py:79
+msgid "town"
+msgstr ""
+
+#: apps/checkout/models.py:14 apps/user_profile/models.py:78
+msgid "address"
+msgstr ""
+
+#: apps/checkout/models.py:15
+msgid "comment"
+msgstr ""
+
+#: apps/checkout/models.py:19
+msgid "PAY_STATUS"
+msgstr ""
+
+#: apps/checkout/models.py:21
+msgid "NAXT_STATUS"
+msgstr ""
+
+#: apps/checkout/models.py:28 apps/checkout/models.py:29
+msgid "Checkout"
+msgstr ""
+
+#: apps/dashboard_api/apps.py:8
+msgid "dashboard_api"
+msgstr ""
+
+#: apps/outside/apps.py:8
+msgid "outside"
+msgstr ""
+
+#: apps/outside/models.py:10 apps/outside/models.py:30
+#: apps/outside/models.py:50 apps/products/models.py:14
+#: apps/products/models.py:67
+msgid "slug"
+msgstr ""
+
+#: apps/outside/models.py:11 apps/outside/models.py:31
+#: apps/outside/models.py:51
+msgid "images"
+msgstr ""
+
+#: apps/outside/models.py:25
+msgid "Slider"
+msgstr ""
+
+#: apps/outside/models.py:26
+msgid "Sliders"
+msgstr ""
+
+#: apps/outside/models.py:45 apps/products/models.py:303
+#: apps/products/models.py:304
+msgid "Stock"
+msgstr ""
+
+#: apps/outside/models.py:46
+msgid "Stocks"
+msgstr ""
+
+#: apps/outside/models.py:52 apps/products/models.py:76
+msgid "category"
+msgstr ""
+
+#: apps/outside/models.py:67 apps/products/models.py:118
+msgid "Brand"
+msgstr ""
+
+#: apps/outside/models.py:68 apps/products/models.py:119
+msgid "Brands"
+msgstr ""
+
+#: apps/paymart/apps.py:8
+msgid "paymart"
+msgstr ""
+
+#: apps/products/apps.py:8
+msgid "products"
+msgstr ""
+
+#: apps/products/models.py:12 apps/products/models.py:61
+#: apps/products/models.py:111 apps/products/models.py:126
+#: apps/products/models.py:142
+msgid "name"
+msgstr ""
+
+#: apps/products/models.py:15 apps/products/models.py:69
+#: apps/products/models.py:128
+msgid "description"
+msgstr ""
+
+#: apps/products/models.py:16
+msgid "background_image"
+msgstr ""
+
+#: apps/products/models.py:17
+msgid "test_image"
+msgstr ""
+
+#: apps/products/models.py:20 apps/products/models.py:80
+#: apps/products/models.py:211
+msgid "is_active"
+msgstr ""
+
+#: apps/products/models.py:28
+msgid "parent"
+msgstr ""
+
+#: apps/products/models.py:36
+msgid "categories"
+msgstr ""
+
+#: apps/products/models.py:42
+msgid "Category"
+msgstr ""
+
+#: apps/products/models.py:43
+msgid "Categories"
+msgstr ""
+
+#: apps/products/models.py:82
+msgid "is_recommended"
+msgstr ""
+
+#: apps/products/models.py:85
+msgid "USA_product"
+msgstr ""
+
+#: apps/products/models.py:88
+msgid "status"
+msgstr ""
+
+#: apps/products/models.py:104
+msgid "Product"
+msgstr ""
+
+#: apps/products/models.py:105
+msgid "Products"
+msgstr ""
+
+#: apps/products/models.py:134
+msgid "ProductAttribute"
+msgstr ""
+
+#: apps/products/models.py:135
+msgid "ProductAttributes"
+msgstr ""
+
+#: apps/products/models.py:149
+msgid "product_type_attributes"
+msgstr ""
+
+#: apps/products/models.py:156
+msgid "ProductType"
+msgstr ""
+
+#: apps/products/models.py:157
+msgid "ProductTypes"
+msgstr ""
+
+#: apps/products/models.py:165
+msgid "product_attribute"
+msgstr ""
+
+#: apps/products/models.py:169
+msgid "attribute_value"
+msgstr ""
+
+#: apps/products/models.py:176 apps/products/models.py:177
+msgid "ProductAttributeValue"
+msgstr ""
+
+#: apps/products/models.py:184
+msgid "sku"
+msgstr ""
+
+#: apps/products/models.py:189
+msgid "upc"
+msgstr ""
+
+#: apps/products/models.py:192
+msgid "product_type"
+msgstr ""
+
+#: apps/products/models.py:201
+msgid "brand"
+msgstr ""
+
+#: apps/products/models.py:207
+msgid "attribute_values"
+msgstr ""
+
+#: apps/products/models.py:215
+msgid "is_default"
+msgstr ""
+
+#: apps/products/models.py:218
+msgid "price"
+msgstr ""
+
+#: apps/products/models.py:221
+msgid "sale_price"
+msgstr ""
+
+#: apps/products/models.py:223
+msgid "installment_plan"
+msgstr ""
+
+#: apps/products/models.py:224
+msgid "is_on_sale"
+msgstr ""
+
+#: apps/products/models.py:230
+msgid "weight"
+msgstr ""
+
+#: apps/products/models.py:246 apps/products/models.py:247
+msgid "ProductInventory"
+msgstr ""
+
+#: apps/products/models.py:255 apps/products/models.py:286
+msgid "product_inventory"
+msgstr ""
+
+#: apps/products/models.py:260
+msgid "img_url"
+msgstr ""
+
+#: apps/products/models.py:264
+msgid "alt_text"
+msgstr ""
+
+#: apps/products/models.py:269
+msgid "is_feature"
+msgstr ""
+
+#: apps/products/models.py:277 apps/products/models.py:278
+msgid "Media"
+msgstr ""
+
+#: apps/products/models.py:291
+msgid "last_checked"
+msgstr ""
+
+#: apps/products/models.py:295
+msgid "units"
+msgstr ""
+
+#: apps/products/models.py:299
+msgid "units_sold"
+msgstr ""
+
+#: apps/products/models.py:312 apps/products/models.py:335
+msgid "attributevalues"
+msgstr ""
+
+#: apps/products/models.py:318 apps/products/models.py:341
+msgid "productinventory"
+msgstr ""
+
+#: apps/products/models.py:323 apps/products/models.py:324
+msgid "ProductAttributeValues"
+msgstr ""
+
+#: apps/products/models.py:346 apps/products/models.py:347
+msgid "ProductTypeAttribute"
+msgstr ""
+
+#: apps/products/models.py:356
+msgid "date_added"
+msgstr ""
+
+#: apps/products/models.py:364
+msgid "rating"
+msgstr ""
+
+#: apps/search/apps.py:8
+msgid "search"
+msgstr ""
+
+#: apps/user_profile/apps.py:8
+msgid "user_profile"
+msgstr ""
+
+#: apps/user_profile/models.py:76
+msgid "title"
+msgstr ""
+
+#: apps/user_profile/models.py:81
+msgid "update_at"
+msgstr ""
+
+#: apps/user_profile/models.py:87
+msgid "Map"
+msgstr ""
+
+#: apps/user_profile/models.py:88
+msgid "Maps"
+msgstr ""
+
+#: config/settings.py:160
+msgid "Uzbek"
+msgstr ""
+
+#: config/settings.py:161
+msgid "Russian"
+msgstr ""
+
+#: config/settings.py:162
+msgid "English"
+msgstr ""
